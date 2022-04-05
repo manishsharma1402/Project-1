@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commarce</title>
+    <style>
+       * {
+  box-sizing: border-box;
+}
+.btn{
+  float: center;
+  margin-top: 50px;
+  background-color: lightblue;
+}
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px solid black
+;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+} 
+.button{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="row1">
+        <div class="column">
+          <img src="home.png" style="width:90%">
+          
+        </div>
+        
+        <div class="column">
+          <img src="contactus.png" style="width:90%">
+          
+        </div>
+        <div class="column">
+          <img src="aboutus.png"  style="width:90%">
+          
+        </div>
+      </div>
+      <div class="row2">
+        <div class="column">
+          <a href="AboutUS.html"><strong>About Us</strong></a>
+        </div>
+        
+        
+        <div class="column">
+          <a href="Home.html" ><strong>Home</strong></a>
+
+        </div>
+        <div class="column">
+          <a href="contactUs.html"  input type ="submit"><strong>Contact Us</strong></a>
+
+        </div>
+        
+        
+      </div>
+      <div>
+        <button  class="btn" onclick="alert('Thankyou for Purchasing.')">Purchase</button>
+      </div>
+    
+</body>
+</html>
